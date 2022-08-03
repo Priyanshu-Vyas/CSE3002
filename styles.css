@@ -1,0 +1,21 @@
+.form {
+    background-color: white;
+    padding: 7%;
+}
+#header {
+    background-color: skyblue;
+    margin: 7%;
+    padding: 1%;
+    margin-bottom: 0;
+    border: solid darkcyan 10px;
+    border-radius: 10px;
+    
+}
+.iframe {
+    background-color: grey;
+    margin: 7%;
+    margin-top: 0;
+    padding: 2%;
+    border: solid white 10px;
+    border-radius: 10px;
+}
