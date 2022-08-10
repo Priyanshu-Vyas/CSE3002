@@ -4,29 +4,30 @@
 <head>
     <title>Form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="form">
         <p>LEAVE US A MESSAGE</p>
         <hr>
-        <form>
+        <form name="MyForm" onsubmit="return validateForm()">
             <table align="center">
                 <tr>
                     <td>Your Name</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" name="name"></td>
                 </tr>
                 <tr>
                     <td>Your Email</td>
-                    <td><input type="email"></td>
+                    <td><input type="email" name="email"></td>
                 </tr>
                 <tr>
                     <td>Your Mobile Number</td>
-                    <td><input type="tel"></td>
+                    <td><input type="tel" name="no"></td>
                 </tr>
                 <tr>
                     <td>Topic</td>
-                    <td><select>
+                    <td><select id="topic">
                             <option value="none">------- Please Select -------</option>
                             <option value="feedback">Feedback</option>
                             <option value="question">Question</option>
@@ -36,11 +37,11 @@
                 </tr>
                 <tr>
                     <td>Your Message</td>
-                    <td><textarea placeholder="Your Message"></textarea></td>
+                    <td><textarea placeholder="Your Message" name="msg"></textarea></td>
                 </tr>
                 <tr>
                     <td>Enter the code in the box</td>
-                    <td><input type="text">
+                    <td><input type="text" name="cap">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png"
                             width=50 height=50 />
                     </td>
