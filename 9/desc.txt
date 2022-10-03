@@ -1,0 +1,3 @@
+Project Description:
+
+This is a web based project to buy and sell accessories online from your home.

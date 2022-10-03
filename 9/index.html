@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- PRIYANSHU VYAS 20BCE1685 -->
+<!-- Project  information -->
+<html>
+  <head>
+    <title>Ajax with JQuery</title>
+    <style>
+      #container {
+        opacity: 0.8;
+        background-color: #ccc;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 1000;
+        background: lightblue;
+        text-align: center;
+      }
+      .table td a {
+        color: black;
+      }
+      #details {
+        display: flex;
+        justify-content: center;
+        column-gap: 7%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Project Title: Computer Accessories</h1>
+      <br />
+      <button id="des">Click here to see project Description</button>
+      <br />
+      <p id="desc"></p>
+      <br />
+      <br />
+      <div id="details">
+        <table border class="table">
+          <th>Team Members</th>
+          <th>Reg No.</th>
+          <tr>
+            <td>Priyanshu Vyas</td>
+            <td><button id="20bce1685">20BCE1685</button></td>
+          </tr>
+          <tr>
+            <td>Aditya Bhardwaj</td>
+            <td><button id="20bce1216">20BCE1216</button></td>
+          </tr>
+          <tr>
+            <td>Himanshu baid</td>
+            <td><button id="20bce1259">20BCE1159</button></td>
+          </tr>
+        </table>
+        <div id="20BCE1685"></div>
+        <div id="20BCE1216"></div>
+        <div id="20BCE1259"></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#des").click(function () {
+          const xhttp = new XMLHttpRequest();
+          xhttp.onload = function () {
+            $("#desc").html(this.responseText);
+          };
+          xhttp.open("GET", "desc.txt", true);
+          xhttp.send();
+        });
+        $("#20bce1685").click(function () {
+          const xhttp = new XMLHttpRequest();
+          xhttp.onload = function () {
+            $("#20BCE1685").html(this.responseText);
+          };
+          xhttp.open("GET", "20BCE1685.txt", true);
+          xhttp.send();
+        });
+        $("#20bce1216").click(function () {
+          const xhttp = new XMLHttpRequest();
+          xhttp.onload = function () {
+            $("#20BCE1216").html(this.responseText);
+          };
+          xhttp.open("GET", "20BCE1216.txt", true);
+          xhttp.send();
+        });
+        $("#20bce1259").click(function () {
+          const xhttp = new XMLHttpRequest();
+          xhttp.onload = function () {
+            $("#20BCE1259").html(this.responseText);
+          };
+          xhttp.open("GET", "20BCE1259.txt", true);
+          xhttp.send();
+        });
+      });
+    </script>
+  </body>
+</html>

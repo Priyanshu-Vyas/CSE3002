@@ -1,0 +1,22 @@
+<table border>
+    <tr>
+        <td>Name</td>
+        <td>Himanshu Baid</td>
+    </tr>
+    <tr>
+        <td>Regno</td>
+        <td>20BCE1259</td>
+    </tr>
+    <tr>
+        <td>Hobby</td>
+        <td>Programming</td>
+    </tr>
+    <tr>
+        <td>Phno</td>
+        <td>5948595409</td>
+    </tr>
+    <tr>
+        <td>cgpa</td>
+        <td>8.20</td>
+    </tr>
+</table>

@@ -1,0 +1,22 @@
+<table border="">
+    <tr>
+        <td>Name</td>
+        <td>Priyanshu Vyas</td>
+    </tr>
+    <tr>
+        <td>Regno</td>
+        <td>20BCE1685</td>
+    </tr>
+    <tr>
+        <td>Hobby</td>
+        <td>Coding</td>
+    </tr>
+    <tr>
+        <td>Phno</td>
+        <td>5345534766</td>
+    </tr>
+    <tr>
+        <td>cgpa</td>
+        <td>8.44</td>
+    </tr>
+</table>

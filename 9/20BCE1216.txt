@@ -1,0 +1,22 @@
+<table border>
+    <tr>
+        <td>Name</td>
+        <td>Aditya Bhardwaj</td>
+    </tr>
+    <tr>
+        <td>Regno</td>
+        <td>20BCE1216</td>
+    </tr>
+    <tr>
+        <td>Hobby</td>
+        <td>Development</td>
+    </tr>
+    <tr>
+        <td>Phno</td>
+        <td>4354554435</td>
+    </tr>
+    <tr>
+        <td>cgpa</td>
+        <td>8.70</td>
+    </tr>
+</table>
